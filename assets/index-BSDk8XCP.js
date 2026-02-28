@@ -9960,6 +9960,7 @@ function id({
     }),
   });
 }
+// Thêm nút Facebook vào mục liên hệ
 const ad = [
   {
     icon: ir,
@@ -9975,6 +9976,11 @@ const ad = [
     icon: xo,
     href: "mailto:ngoquangduanvn1708@gmail.com",
     labelKey: "contact.email",
+  },
+  {
+    icon: fb, // Thêm icon Facebook
+    href: "https://facebook.com/your-profile", // Đường dẫn Facebook
+    labelKey: "contact.facebook", // Nhãn Facebook
   },
 ];
 function ld() {
